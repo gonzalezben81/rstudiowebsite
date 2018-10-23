@@ -1,0 +1,33 @@
+name: "my-website"
+navbar:
+  title: "Ben Gonzalez"
+  type: default
+  left:
+    - text: "Home"
+      icon: fa-home 
+      href: index.html
+    - text: "R Tutorials"
+      href: tutorials.html
+    - text: "Shiny Applications"
+      icon: fa-gear
+      menu:
+        - text: "Baseball Comparison"
+          href: page_a.html
+        - text: "---------"
+        - text: "Illinois Congressional Map"
+          href: page_b.html
+        - text: "---------"
+        - text: "Web Scraper"
+          href: page_c.html
+        - text: "---------"
+        - text: "SQL Application"
+          href: page_d.html
+    - text: "Text Mining"
+      href: text.html
+    - text: "About Me:"
+      icon: fa-user
+      menu:
+       - text: "What I Do"
+         href: page_a.html
+       - text: "who am I"
+         href: about.html
